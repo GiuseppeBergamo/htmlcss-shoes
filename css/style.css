@@ -2,4 +2,84 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Rubik Mono One', sans-serif;;
+}
+
+section{
+    height: 100vh;
+}
+
+.bg-red{
+    background-color: red;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-green{
+    background-color: green;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-yellow{
+    background-color: yellow;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-shoes{
+    min-height: 500px;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.blue-shoes img{
+    height: 50%;
+}
+
+.white-shoes{
+    min-height: 500px;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.white-shoes img{
+    height: 50%;
+}
+
+.green-shoes{
+    min-height: 500px;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.green-shoes img{
+    height: 50%;
 }
