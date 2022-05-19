@@ -1,3 +1,6 @@
+
+/* Generics */
+
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +8,41 @@
     font-family:'Rubik Mono One', sans-serif;;
 }
 
+html{
+    overflow-y: hidden;
+}
+
 section{
     height: 100vh;
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 50%;
+    margin: 30px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/* Sections */
 .bg-red{
     background-color: red;
     color: yellow;
@@ -35,6 +69,8 @@ section{
     justify-content: center;
     align-items: center;
 }
+
+/* Shoes */
 
 .blue-shoes{
     min-height: 500px;
